@@ -11,7 +11,7 @@ namespace OnlinePoll.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult VotingPage()
         {
             return View();
         }
